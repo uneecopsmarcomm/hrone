@@ -88,11 +88,23 @@ get_header(); ?>
 <!-- we make hr simpler -->
 <section id="hr-simpler" class="section">
 	<div class="container">
-		<div class="col s12">
-			<h2 class="text-title center">
-				We make HR <span class="secondarycolor">Simpler, Faster &amp; Better</span>
-			</h2>
-			<p class="fs16 center mb35">Watch this video to unravel the magic yourself!</p>
+		<div class="row">
+			<div class="col s12">
+				<h2 class="text-title center">
+					We make HR <span class="secondarycolor">Simpler, Faster &amp; Better</span>
+				</h2>
+				<p class="fs16 center mb35">Watch this video to unravel the magic yourself!</p>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col s12">
+				<div class="joy-laptop-video-wrap">
+					<span class="laptop-bg"></span>
+								
+				</div>
+			</div>
 		</div>
 	</div>
 </section>

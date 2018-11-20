@@ -264,6 +264,23 @@ h2.text-title{
 	color: #000;
 	font-weight: 300;
 }
+.joy-laptop-video-wrap{
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.laptop-bg{
+	display: inline-block;
+	background: url('img/joy-laptop.png') no-repeat left top;
+	width: 860px;
+	min-height: 580px;
+}
+.joy-pic{
+	background: url('img/joy-pic.png') no-repeat left top;
+	width: 213px;
+	height: 424px;
+}
+
 
 @media only screen and (min-width: 1530px){
 	.container{
