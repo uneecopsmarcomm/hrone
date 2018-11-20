@@ -1,0 +1,273 @@
+/*
+Theme Name: HrOne Theme
+Theme URI: https://www.hronecloud.com/
+Author: Hr-One
+Author URI: https://www.hronecloud.com/
+Description: The HR-One Cloud theme for WordPress is a fully responsive theme that looks great on any device. Features include a front page template with its own widgets, an optional display font, styling for post formats on both index and single views, and an optional no-sidebar page template. Make it yours with a custom menu, header image, and background.
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, one-column, two-columns, right-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, footer-widgets, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
+Text Domain: hronetheme
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* Roboto Font */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+/* headings */
+h1{
+	font-size: 66px;
+	line-height: 76px;
+	color: #000;
+	font-weight: 300;
+}
+
+/* font size */
+.fs16{
+	font-size: 16px;
+	line-height: 20px;
+}
+.fs18{
+	font-size: 18px;
+	line-height: 24px;
+}
+.fs24{
+	font-size: 24px;
+	line-height: 36px;
+}
+
+/* colors */
+.secondarycolor{
+	color: #13b894;
+}
+.whitecolor{
+	color: #fff;
+}
+.orangecolor{
+	color: #ff5500;
+}
+
+/* background colors */
+.bgorange{
+	background-color: #ff5500;
+}
+
+/* buttons */
+.custombtn{
+	padding: 13px 52px;
+	border-radius: 25px;
+	font-weight: 400;
+	border: 1px solid #ff5500;
+}
+
+/* box shadow */
+.orangeshadow{
+	box-shadow: 0px 8px 8px rgba(255,85,0,0.25);
+}
+
+/* margins */
+.mt0{
+	margin-top: 0px;
+}
+.mb10{
+	margin-bottom: 10px;
+}
+.mb35{
+	margin-bottom: 35px;
+}
+.ml10{
+	margin-left: 10px;
+}
+.pos-rel{
+	position: relative;
+}
+
+
+/* common stylesheet */
+#head{
+	padding: 20px 0;
+}
+#head .row{
+	position: relative;
+}
+nav {
+    background-color: transparent;
+	box-shadow: none;
+	width: auto;
+}
+#head nav ul a:hover{
+	background: none;
+}
+img.logo {
+    margin-top: -7px;
+}
+body.home.template-front-page {
+    overflow: hidden; /* because of big cirecle background */
+}
+body.template-front-page header#head .bg-top .row::before{
+	content: '';
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#019feb+0,13b894+100 */
+	background: #019feb; /* Old browsers */
+	background: -moz-linear-gradient(top, #019feb 0%, #13b894 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #019feb 0%,#13b894 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #019feb 0%,#13b894 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#019feb', endColorstr='#13b894',GradientType=0 ); /* IE6-9 */
+	width: 1289px;
+    height: 1289px;
+    border-radius: 50%;
+    position: absolute;
+    right: -366px;
+    top: -616px;
+    display: inline-block;
+}
+ul#desktop-menu{
+	margin-top: 9px;
+}
+ul#desktop-menu li a {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 300;
+	line-height: 45px;
+	padding: 0 24px;
+}
+ul#desktop-menu li:first-child a {
+    padding-left: 0px;
+}
+ul#desktop-menu li.current_page_item a {
+    font-weight: 500;
+}
+.header-telephone{
+	display: inline-block;
+	margin-top: 9px;
+	margin-left: 4px;
+}
+.header-telephone span{
+	display: inline-block; 
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	border: 1px solid rgba(255,255,255,0.2);
+	position: relative;
+}
+.header-telephone span i{
+	background: url(img/telephone-icon.png) no-repeat left top;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -7.5px;
+    margin-left: -7.5px;
+}
+.home-front-section{
+	margin-bottom: 0px;
+}
+.home-front-section .col{
+	display: flex;
+	min-height: calc( 100vh - 104px );
+}
+.home-front-section .col:first-child{
+	align-items: center;
+}
+.home-front-section .col{
+	align-items: flex-start;
+}
+.home-laptop {
+	position: absolute;
+    right: -130px;
+    top: 120px;
+}
+.home-header-text {
+    margin-top: -110px;
+}
+.home-main-img{
+	background: url('img/home-main-img.png') no-repeat left top;
+	width: 377px;
+	height: 254px;
+	position: absolute;
+	left: 50%;
+	margin-left: -288px;
+	bottom: 0px;
+}
+.scroll-down-mobile{
+	display: inline-block;
+	line-height: 32px;
+	font-size: 14px;
+	padding-left: 32px;
+	position: absolute;
+	left: 0px;
+	bottom: 10px;
+	background: url('img/scroll-down-mobile.png') no-repeat left top;
+	font-weight: 400;
+}
+.full-height{
+	min-height: 100vh !important;
+}
+.clients-circle{
+	width: 889px;
+	height: 854px;
+	border-radius: 50%;
+	margin-top: -442px;
+	position: absolute;
+	right: 50%;
+    top: 50%;
+	background-size: 80%;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#09abc4+0,12b79a+99 */
+	background: #09abc4; /* Old browsers */
+	background: -moz-linear-gradient(top, #09abc4 0%, #12b79a 99%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #09abc4 0%,#12b79a 99%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #09abc4 0%,#12b79a 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#09abc4', endColorstr='#12b79a',GradientType=0 ); /* IE6-9 */
+}
+.clients-mobile{
+	background: url('img/phoneimg.png') no-repeat left top;
+	width: 773px;
+    height: 623px;
+    position: absolute;
+    left: -240px;
+    top: calc(50% + 100px);
+    margin-top: -352px;
+}
+ul#clients-logo-box li {
+    width: 157px;
+    height: 138px;
+    border: 1px solid #f2f2f2;
+	float: left;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul#clients-logo-box li:hover img{
+	opacity: 1;
+	-webkit-filter: grayscale(0%);
+	cursor: pointer;
+}
+ul#clients-logo-box li img{
+	filter: gray; /* IE5+ */
+	-webkit-filter: grayscale(100%);
+	opacity: 0.5;
+}
+
+ul#clients-logo-box {
+    float: left;
+}
+h2.text-title{
+	font-size: 58px;
+	line-height: 66px;
+	color: #000;
+	font-weight: 300;
+}
+
+@media only screen and (min-width: 1530px){
+	.container{
+		width: 1530px;
+		max-width: 100%;
+	}
+}
