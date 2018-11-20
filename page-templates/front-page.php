@@ -100,9 +100,11 @@ get_header(); ?>
 	<div class="container">
 		<div class="row">
 			<div class="col s12">
-				<div class="joy-laptop-video-wrap">
-					<span class="laptop-bg"></span>
-								
+				<div id="joy-video">
+					<div class="joy-laptop-video-wrap">
+						<span class="joy-pic"></span>
+									
+					</div>
 				</div>
 			</div>
 		</div>

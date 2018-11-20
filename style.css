@@ -265,11 +265,7 @@ h2.text-title{
 	font-weight: 300;
 }
 .joy-laptop-video-wrap{
-	float: left;
-	width: 100%;
-	text-align: center;
-}
-.laptop-bg{
+	position: relative;
 	display: inline-block;
 	background: url('img/joy-laptop.png') no-repeat left top;
 	width: 860px;
@@ -279,6 +275,14 @@ h2.text-title{
 	background: url('img/joy-pic.png') no-repeat left top;
 	width: 213px;
 	height: 424px;
+	position: absolute;
+	right: -160px;
+    bottom: -40px;
+}
+#joy-video{
+	float: left;
+	width: 100%;
+	text-align: center;
 }
 
 
