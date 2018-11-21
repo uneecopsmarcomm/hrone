@@ -103,8 +103,21 @@ get_header(); ?>
 				<div id="joy-video">
 					<div class="joy-laptop-video-wrap">
 						<span class="joy-pic"></span>
-									
+						<video class="video" id="bVideo" loop controls controlsList="nodownload">
+							<source src="<?php echo get_template_directory_uri(); ?>/video/HR-One-Final.mp4?title=0&byline=0&portrait=0&color=ffffff" type="video/mp4" />
+						</video>
 					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="free-trail" class="section fp-auto-height">
+	<div class="container">
+		<div class="row">
+			<div class="col s12">
+				<div class="free-trial-box">
+					
 				</div>
 			</div>
 		</div>

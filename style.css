@@ -269,7 +269,11 @@ h2.text-title{
 	display: inline-block;
 	background: url('img/joy-laptop.png') no-repeat left top;
 	width: 860px;
-	min-height: 580px;
+	min-height: 466px;
+    padding: 35px 90px 52px 102px;
+}
+video#bVideo {
+    width: 100%;
 }
 .joy-pic{
 	background: url('img/joy-pic.png') no-repeat left top;
@@ -283,6 +287,14 @@ h2.text-title{
 	float: left;
 	width: 100%;
 	text-align: center;
+}
+.trail-box-bg{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#13b7b5+0,12b79a+100 */
+	background: #13b7b5; /* Old browsers */
+	background: -moz-linear-gradient(top, #13b7b5 0%, #12b79a 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #13b7b5 0%,#12b79a 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #13b7b5 0%,#12b79a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#13b7b5', endColorstr='#12b79a',GradientType=0 ); /* IE6-9 */
 }
 
 
