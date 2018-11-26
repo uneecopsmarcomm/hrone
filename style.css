@@ -43,6 +43,14 @@ h1{
 	line-height: 36px;
 }
 
+/* font weight */
+.fw300{
+	font-weight: 300;
+}
+.fw400{
+	font-weight: 400;
+}
+
 /* colors */
 .secondarycolor{
 	color: #13b894;
@@ -65,6 +73,13 @@ h1{
 	border-radius: 25px;
 	font-weight: 400;
 	border: 1px solid #ff5500;
+}
+.white-button{
+	background: #fff;
+	padding: 13px 52px;
+	border-radius: 25px;
+	font-weight: 400;
+	border: 1px solid #fff;
 }
 
 /* box shadow */
@@ -288,6 +303,23 @@ video#bVideo {
 	width: 100%;
 	text-align: center;
 }
+.free-trial-box{
+	padding: 40px 70px;
+	position: relative;
+	border-radius: 100px;
+	float: left;
+	width: 100%;
+	position: relative;
+}
+.free-trial-box:before{
+	content: '';
+	background: url('img/laptop-man.png') no-repeat left bottom;
+	width: 136px;
+	height: 211px;
+	position: absolute;
+    bottom: 0;
+    left: 90px;
+}
 .trail-box-bg{
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#13b7b5+0,12b79a+100 */
 	background: #13b7b5; /* Old browsers */
@@ -296,7 +328,38 @@ video#bVideo {
 	background: linear-gradient(to bottom, #13b7b5 0%,#12b79a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#13b7b5', endColorstr='#12b79a',GradientType=0 ); /* IE6-9 */
 }
+.trail-text{
+	padding: 20px 30px 20px 200px;
+	border-right: 1px solid rgba(255,255,255,.15);
+	font-size: 36px; 
+	line-height: 48px;
+	color: #fff;
+	font-weight: 300;
+	float: left;
+}
+.trail-text i{
+	font-style: normal;
+	color: #55e6c7;
+}
+.trail-button {
+    float: left;
+    width: calc(100% - 510px);
+    padding: 22px 25px;
+    display: flex;
+}
 
+.trail-button > p:first-child {
+    max-width: 615px;
+    padding-right: 70px;
+}
+
+.trail-button > p {
+    margin: 0;
+}
+
+span.white-button.secondarycolor {
+    float: left;
+}
 
 @media only screen and (min-width: 1530px){
 	.container{

@@ -1,0 +1,225 @@
+/** digital learning **/
+.digital_learning{width: 100%;float: left;padding-bottom: 5em;display: flex;display: -moz-flex;display: -ms-flex;display: -webkit-flex;display: -o-flex; padding:55px 0 20px !important;}
+.card_section {width: 80%; float: none;padding-top:40px;margin: 0 auto;}
+.card_list{width:24%;text-align: left;float: left;}
+.card_list ul{width: 100%;float: left;display: flex;display: -moz-flex;display: -ms-flex;display: -webkit-flex;display: -o-flex;flex-wrap: wrap;}
+.card_list ul li{width: 100%;float: left;    padding-bottom: 38px;position: relative;}
+.card_list ul li a{width: 100%;float: left;display: flex;display: -moz-flex;display: -ms-flex;display: -webkit-flex;display: -o-flex;align-items:center;}
+.card_list ul li::after {content: "";position: absolute;background: #333333;width: 1px;    left: 35px;
+    top: 73px;
+    height: calc(100% - 76px);}
+.card_list ul li:last-child::after{display: none;}
+.card_content p{color: #c3c3c3;font-size: 0.938em;}
+.card_content h5{color: #333333;font-size:12pt;font-weight: 600;padding-bottom:0;}
+.card_list ul li a.active-card .card_content h5{color: #0aacc0;}
+.card_content{width: 70%;margin-left: 5%;}
+.cards_images{width: 62%;float:left;text-align: left;}
+.card_list ul li a img{display: block;max-width:75%;}
+.card_list ul li a img.card_active{display: none;}
+.card_list ul li a.active-card img.card_inactive{display: none;}
+.card_list ul li a.active-card img.card_active{display: block;}
+
+.card_content span{
+  color: rgba(0,0,0,0.8);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/** cards section **/
+.cards_section{display: inline-block;width: 552px;position: relative;padding-top: 3em; height:485px; width: 552px;}
+.cards_section > div {height: 100%;display: flex;display: -moz-flex;display: -ms-flex;display: -webkit-flex;display: -o-flex;align-items:center;flex-wrap: wrap;text-align: left;}
+.first_card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #8f5fc4;
+  z-index: 99;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+.second_card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #6480d0;
+  transform: translateY(-1.2em) scale(0.95);
+  -webkit-transform: translateY(-1.2em) scale(0.95);
+  z-index: 97;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+.third_card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0aacc0;
+  transform: translateY(-3em) scale(0.85);
+  -webkit-transform: translateY(-3em) scale(0.85);
+  z-index: 91;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+.fourth_card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f48d5a;
+  transform: translateY(-4.7em) scale(0.75);
+  -webkit-transform: translateY(-4.7em) scale(0.75);
+  z-index: 0;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+.five_card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #12b79a;
+  transform: translateY(-4.5em) scale(0.65);
+  -webkit-transform: translateY(-4.5em) scale(0.65);
+  z-index: 93;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+.six_card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #4b9ad1;
+  transform: translateY(-5em) scale(0.55);
+  -webkit-transform: translateY(-5em) scale(0.55);
+  z-index: 92;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+.cards_container{width: 100%;padding: 0 3em;}
+.cards_container h3{color: #fff; padding-top:30px;}
+.cards_container h3 span{color: #fff;font-size: 0.6em;font-weight: 400;text-transform: uppercase;}
+.cards_container p{padding-top: 1.3em;width: 100%; color:#fff;}
+.card_list ul li:last-child{ padding-bottom:0;}
+.card_list ul li::after {
+    content: "";
+    position: absolute;
+    background: #333333;
+    width: 1px;
+    left: 22px;
+    top: 54px;
+    height: calc(100% - 58px);
+}
+a.card1_click.active-card h5 {
+    color: #8f5fc4!important;
+}
+a.card2_click.active-card h5 {
+    color: #6480d0!important;
+}
+a.card3_click.active-card h5 {
+    color: #0aacc0!important;
+}
+a.card4_click.active-card h5 {
+    color: #f48d5a!important;
+}
+a.card5_click.active-card h5 {
+    color: #12b79a!important;
+}
+a.card6_click.active-card h5 {
+    color: #4b9ad1!important;
+}
+
+@media(min-width:1359px){
+.cards_section {
+        padding-bottom:0;
+}
+}
+@media(min-width:1700px){
+.cards_section{ width:766px;height:630px;}
+.card_section{ padding-bottom:24px;}
+.card_content h5{color: #333333;font-size:15pt;font-weight: 600;padding-bottom:0;}
+.card_list ul li a img{display: block;max-width:100%;}
+.card_list ul li::after {
+    content: "";
+    position: absolute;
+    background: #333333;
+    width: 1px;
+    left: 35px;
+    top: 72px;
+    height: calc(100% - 74px);
+}	
+	
+	
+}
+
+@media(max-width:1920px){
+    .first_card {
+      transform: translateY(40px) scale(1);
+      -webkit-transform: translateY(40px) scale(1);
+    }
+    .second_card {
+      transform: translateY(12px) scale(0.95);
+      -webkit-transform: translateY(12px) scale(0.95);
+    }
+    
+    .third_card {
+      transform: translateY(-30px) scale(0.85);
+      -webkit-transform: translateY(-30px) scale(0.85);
+      -webkit-transition: all 0.3s ease-in-out;
+    }
+    
+    .fourth_card {
+      transform: translateY(-70px) scale(0.75);
+      -webkit-transform: translateY(-70px) scale(0.75);
+    }
+    
+    .five_card {
+      transform: translateY(0px) scale(0.65);
+      -webkit-transform: translateY(0px) scale(0.65);
+    }
+    
+    .six_card {
+      transform: translateY(0px) scale(0.55);
+      -webkit-transform: translateY(0px) scale(0.55);
+    } 
+}
+
+@media(max-width:1366px){
+    .first_card {
+      transform: translateY(0em) scale(1);
+      -webkit-transform: translateY(0em) scale(1);
+    }
+    .second_card {
+      transform: translateY(-1.2em) scale(0.95);
+      -webkit-transform: translateY(-1.2em) scale(0.95);
+    }
+    
+    .third_card {
+      transform: translateY(-3em) scale(0.85);
+      -webkit-transform: translateY(-3em) scale(0.85);
+      -webkit-transition: all 0.3s ease-in-out;
+    }
+    
+    .fourth_card {
+      transform: translateY(-4.7em) scale(0.75);
+      -webkit-transform: translateY(-4.7em) scale(0.75);
+    }
+    
+    .five_card {
+      transform: translateY-4.5em) scale(0.65);
+      -webkit-transform: translateY(-4.5em) scale(0.65);
+    }
+    
+    .six_card {
+      transform: translateY(-5em) scale(0.55);
+      -webkit-transform: translateY(-5em) scale(0.55);
+    } 
+}

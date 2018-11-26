@@ -19,6 +19,10 @@
 <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/img/f-hrone.png" type="image/png" sizes="16x16">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
+<!-- homepage card css -->
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/card.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/circle.css">
+
 <!-- //page stylesheets -->
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/jquery.fullpage.min.css" />
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/materialize.min.css">
