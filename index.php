@@ -32,22 +32,44 @@ get_header(); ?>
 <section id="blog-side-menu">
 	<div class="container">
 		<div class="row">
-			<div class="col s2">
+			<div class="col s2 side-col">
 				<h3 class="side-heading">Resource <span>Centre</span></h3>
 				<ul>
-					<li>Blogs</li>
-					<li>Letter Templates</li>
-					<li>Checklists</li>
-					<li>HR Policies</li>
-					<li>Forms</li>
-					<li>Whitepapers</li>
-					<li>Infographics</li>
-					<li>Brochures</li>
-					<li>HR Glossaries</li>
+					<li class="active"> 
+						<a>Blogs</a>
+					</li>
+					<li>
+						<a>Letter Templates</a>
+					</li>
+					<li><a>Checklists</a></li>
+					<li>
+						<a>HR Policies</a>
+					</li>
+					<li>
+						<a>Forms</a>
+					</li>
+					<li>
+						<a>Whitepapers</a>
+					</li>
+					<li>
+						<a>Infographics</a>
+					</li>
+					<li>
+						<a>Brochures</a>
+					</li>
+					<li>
+						<a>HR Glossaries</a>
+					</li>
 				</ul>
 			</div>
-			<div class="col s9">
-			hello
+			<div class="col s10">
+				<div class="blog-wrapper">
+					<div class="container">
+						<div class="col s12">
+							<input type="search" placeholder="Let's find what you're looking for…">
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
