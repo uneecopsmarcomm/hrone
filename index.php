@@ -17,24 +17,41 @@
 get_header(); ?>
 
 	
-		<?php if ( have_posts() ) : ?>
-
-			<?php /* Start the Loop */ ?>
-			<?php
-			while ( have_posts() ) :
-				the_post();
+<?php if ( have_posts() ) : ?>
+	<?php /* Start the Loop */ ?>
+	<?php
+	while ( have_posts() ) :
+		the_post();
 ?>
-				
-			<?php endwhile; ?>
+		
+	<?php endwhile; ?>
+	<?php hronetheme_content_nav( 'nav-below' ); ?>
+<?php else : ?>
+<?php endif; // end have_posts() check ?>
 
-			<?php hronetheme_content_nav( 'nav-below' ); ?>
-
-		<?php else : ?>
-
-
-		<?php endif; // end have_posts() check ?>
-
-dfrtertert
+<section id="blog-side-menu">
+	<div class="container">
+		<div class="row">
+			<div class="col s2">
+				<h3 class="side-heading">Resource <span>Centre</span></h3>
+				<ul>
+					<li>Blogs</li>
+					<li>Letter Templates</li>
+					<li>Checklists</li>
+					<li>HR Policies</li>
+					<li>Forms</li>
+					<li>Whitepapers</li>
+					<li>Infographics</li>
+					<li>Brochures</li>
+					<li>HR Glossaries</li>
+				</ul>
+			</div>
+			<div class="col s9">
+			hello
+			</div>
+		</div>
+	</div>
+</section>
 
 
 <?php get_footer(); ?>

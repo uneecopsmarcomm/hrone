@@ -1,1 +1,11 @@
 /* CSS go here */
+#blog-side-menu h3.side-heading {
+    font-size: 26px;
+    font-weight: bold;
+    color: #000;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+h3.side-heading span{
+    color:#15b895;
+}
