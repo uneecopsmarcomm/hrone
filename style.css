@@ -367,6 +367,10 @@ span.white-button.secondarycolor {
     float: left;
 }
 
+.people-tex {
+    margin-top: 120px;
+}
+
 @media only screen and (min-width: 1530px){
 	.container{
 		width: 1530px;
