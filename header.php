@@ -87,6 +87,7 @@
 			</div><!-- //col s8 -->
 		</div>
 	</div>
+	<?php if(is_front_page()): ?>
 	<div class="container">
 		<div class="row home-front-section">
 			<div class="col s6">
@@ -110,5 +111,6 @@
 			<img src="<?php echo get_template_directory_uri(); ?>/img/home-laptop.png" class="home-laptop" alt="">
 		</div>
 	</div>
+	<?php endif; ?>
 </header>
 
