@@ -9,7 +9,7 @@ jQuery(document).ready(function($){
         //Initiate the fullpage
         $('#fullpage').fullpage({
             //anchors
-            anchors: ['firstSection', 'secondSection'],
+            //anchors: ['firstSection', 'secondSection', ''],
             //resposive
             verticalCentered: false,
             setResponsive: true,
@@ -19,4 +19,11 @@ jQuery(document).ready(function($){
         });
 
     }
+
+    $(".interactive").mouseover(function() {
+        $(this).addClass("active");
+    });
+    $(".interactive").mouseout(function() {
+        $(this).removeClass("active");
+    });
 });

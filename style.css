@@ -51,6 +51,12 @@ h1{
 	font-weight: 400;
 }
 
+/* font style */
+.italic{
+	font-style: italic;
+}
+
+
 /* colors */
 .secondarycolor{
 	color: #13b894;

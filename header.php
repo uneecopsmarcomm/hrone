@@ -23,6 +23,9 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/card.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/circle.css">
 
+<!-- font -->
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/font-awesome.min.css">
+
 <!-- //page stylesheets -->
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/jquery.fullpage.min.css" />
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/materialize.min.css">

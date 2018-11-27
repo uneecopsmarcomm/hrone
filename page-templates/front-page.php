@@ -315,11 +315,10 @@ get_header(); ?>
 					<div class="people-popup position-right" style="min-width:200px">
 						<div class="people-popup-box" data-aos="fade-up-right">
 							<div class="star"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></div>
-							<div class="feedback">“HR-One has been a blessing in disguise! It’s incredibly easy to use. Our employees adapted it in no time and HR-One has helped us streamline the time office and workforce processes.“</div>
-							<div class="name">Ms. Romika Sharma
-								<div class="text-sky-blue">T.R Sawhney Group, H.R Head</div>
+							<div class="feedback">“All the functions, from leave to payroll management are really easy to operate. HR-One is really a “Wow” platform to work on.“</div>
+							<div class="name">Praveen,
+								<div class="secondarycolor fs18 italic"> V.P HR, Agarwal Movers Group</div>
 							</div>
-
 						</div>
 					</div>
 				</div>
@@ -341,8 +340,8 @@ get_header(); ?>
 						<div class="people-popup-box" data-aos="fade-left">
 							<div class="star"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></div>
 							<div class="feedback">“HR-One helped us in processing payroll, which was a typical and time consuming activity for our business. We can’t be thankful enough to HR-One for solving our complex payroll requirements.“</div>
-							<div class="name">Mr. Satya Narayan
-								<div class="text-sky-blue"> Haier, Head HR Operations</div>
+							<div class="name fw400">Mr. Satya Narayan
+								<div class="secondarycolor fs18 italic"> Haier, Head HR Operations</div>
 							</div>
 
 						</div>
@@ -366,7 +365,7 @@ get_header(); ?>
 							<div class="star"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></div>
 							<div class="feedback">“HR-One has helped us conduct reviews and appraisals in a clear and simple way.  Amazingly, we’re able to clearly define KRAs for goal setting, review ratings and to capture 360-degree feedback for peers with HR-One HRMS.“</div>
 							<div class="name">Ms. Akanksha Chaudhary
-								<div class="text-sky-blue">Hanu Software Sr. Exec HR </div>
+								<div class="secondarycolor fs18 italic">Hanu Software Sr. Exec HR </div>
 							</div>
 
 						</div>
@@ -387,7 +386,7 @@ get_header(); ?>
 							<div class="star"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></div>
 							<div class="feedback">“HR-One has seamlessly merged with our expectations and helped us streamline all our time office, workforce and payroll processes.“</div>
 							<div class="name">Mr. Dalip Kr. Rongta
-								<div class="text-sky-blue"> Deputy Manager- ERP Bikanerwala </div>
+								<div class="secondarycolor fs18 italic"> Deputy Manager- ERP Bikanerwala </div>
 							</div>
 
 						</div>
@@ -401,11 +400,10 @@ get_header(); ?>
 					<div class="people-popup position-right" style="min-width:200px">
 						<div class="people-popup-box" data-aos="fade-left">
 							<div class="star"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></div>
-							<div class="feedback">“All the functions, from leave to payroll management are really easy to operate. HR-One is really a “Wow” platform to work on.“</div>
-							<div class="name">Praveen,
-								<div class="text-sky-blue"> V.P HR, Agarwal Movers Group</div>
+							<div class="feedback">“HR-One has been a blessing in disguise! It’s incredibly easy to use. Our employees adapted it in no time and HR-One has helped us streamline the time office and workforce processes.“</div>
+							<div class="name fw400">Ms. Romika Sharma
+								<div class="secondarycolor fs18 italic">T.R Sawhney Group, H.R Head</div>
 							</div>
-
 						</div>
 					</div>
 				</div>
