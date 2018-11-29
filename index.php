@@ -112,7 +112,8 @@ get_header(); ?>
 										Stay up to Speed!
 									</h4>
 									<div class="input-field">
-										<input value="" id="sub" type="email" class="validate" placeholder="Typeyour@email.com">										
+										<input value="" id="sub" type="email" class="validate" placeholder="Typeyour@email.com">
+										<button type="button" class="sub-btn"><img src="<?php echo get_template_directory_uri(); ?>/img/blog/arrow-big.png" alt=""></button>										
 									</div>
 								</div>
 							</div>

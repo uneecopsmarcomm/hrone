@@ -117,6 +117,7 @@ span.next-circle {
     float: right;
     text-align: center;
     padding-top: 7px;
+    cursor: pointer;
 }
 .featured-post {
     position: relative;
@@ -239,6 +240,15 @@ span.next-circle {
     font-size: 16px;
     font-weight: 500;
  }
+ button.sub-btn {
+    background: transparent;
+    border: none;
+    position: absolute;
+    right: 30px;
+    top: 0;
+    height: 100%;
+    cursor: pointer;
+}
  .post-tiles ul>li{
     width: calc((100% / 3) - 20px);
     height: 320px;
