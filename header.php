@@ -30,6 +30,8 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/jquery.fullpage.min.css" />
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/materialize.min.css">
 
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/prashantcss.css">
+
 <!-- //page extra links -->
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
