@@ -1,8 +1,5 @@
 /* CSS go here */
 
-.blog-side-menu{
-    border-right: 1px solid #ccc;
-}
 .blog-side-menu h3.side-heading {
     font-size: 26px;
     font-weight: bold;
@@ -28,7 +25,6 @@ h3.side-heading span{
     text-decoration: none;
     height: 36px;
 }
-
 .blog-side-menu ul>li.active>a, .blog-side-menu ul>li>a:hover {
     background: #e7f8f4;
     padding: 0 20px 0 0;
@@ -44,10 +40,29 @@ h3.side-heading span{
     top: 0;
     height: 36px;
 }
+.brdr{
+    border-left: 1px solid #ccc;
+}
 .blog-wrapper {
     max-width: 1130px;
     margin: 0 auto;
     min-height: 100px;
+}
+.search-input{
+    position: relative;
+}
+.search-input input {
+    padding-left: 65px !important;
+    width: calc(100% - 65px) !important;
+}
+.search-icons{
+    display: inline-block;
+    background: url(../img/blog/search-icon.png) no-repeat left top;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 10px;
+    top: 8px;
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -66,6 +81,13 @@ h3.side-heading span{
    font-size: 24px;
    font-weight: 300;
 }
+ul.tags {
+    width: calc(100% - 50px);
+    overflow: hidden;
+    display: inline-block;
+    height: 36px;
+    float: left;
+}
 .tag{
     display: inline-block;
     background: #fff;
@@ -83,6 +105,17 @@ h3.side-heading span{
     background: #16b692;
     color: #fff;
 }
+span.next-circle {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #1bb792;
+    border-radius: 50%;
+    margin: 15px 0;
+    float: right;
+    text-align: center;
+    padding-top: 7px;
+}
 .featured-post {
     position: relative;
     height: 320px;
@@ -91,7 +124,7 @@ h3.side-heading span{
     position: absolute;
     top: 20px;
     right: 0;
-    background: #16b692;
+    background: rgba(27, 183, 146, 0.8);
     color: #fff;
     width: 100px;
     height: 30px;
@@ -150,6 +183,7 @@ h3.side-heading span{
     margin-top: 15px;
     margin-bottom: 0;
     line-height: 28px;
+    color: #000000;
 }
 
 .sub-box{
@@ -160,4 +194,91 @@ h3.side-heading span{
     background-image: -webkit-linear-gradient(top, #019FEB 0%, #13B894 100%);
     background-image: linear-gradient(to bottom, #019FEB 0%, #13B894 100%);
     min-height: 320px;
+    padding: 40px 30px 30px 30px;
+}
+.sub-box h4 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 36px;
+    margin: 10px 0 20px 0;
+}
+.sub-box h4>span {
+    display: block;
+    font-weight: 300;
+}
+.sub-box .input-field {
+    margin: 10px 0 0 0;
+}
+.sub-box input[type=email] {
+    height: 50px;
+    background: #fff;
+    border: 0;
+    border-radius: 25px;
+    padding: 0 25px;
+    width: calc(100% - 60px);
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+}
+.sub-box input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 16px;
+    font-weight: 500;
+ }
+ .sub-box input::-moz-placeholder { /* Firefox 19+ */
+    font-size: 16px;
+    font-weight: 500;
+ }
+ .sub-box input:-ms-input-placeholder { /* IE 10+ */
+    font-size: 16px;
+    font-weight: 500;
+ }
+ .sub-box input:-moz-placeholder { /* Firefox 18- */
+    font-size: 16px;
+    font-weight: 500;
+ }
+ .post-tiles ul>li{
+    width: calc((100% / 3) - 20px);
+    height: 320px;
+    position: relative;
+    margin: 0 0 30px 30px;
+    float: left;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+ }
+ .post-tiles ul>li:nth-child(3n+1){
+    margin-left: 0;
+ }
+ .post-tiles ul>li a>img {
+    width: 100%;
+}
+ .post-tiles .detail-card {
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+.view-tag{
+    position: absolute;
+    top: 0;
+    right: 30px;
+    background: rgba(27, 183, 146, 0.8);
+    color: #fff;
+    min-width: 50px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    padding: 0 8px 0 27px;
+}
+.views-icon{
+    display: inline-block;
+    background: url(../img/blog/views-icon.png) no-repeat left top;
+    width: 16px;
+    height: 12px;
+    position: absolute;
+    left: 8px;
+    top: 8px;
 }

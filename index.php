@@ -36,40 +36,40 @@ get_header(); ?>
 				<h3 class="side-heading">Resource <span>Centre</span></h3>
 				<ul>
 					<li class="active"> 
-						<a>Blogs</a>
+						<a href="">Blogs</a>
 					</li>
 					<li>
-						<a>Letter Templates</a>
+						<a href="">Letter Templates</a>
 					</li>
-					<li><a>Checklists</a></li>
+					<li><a href="">Checklists</a></li>
 					<li>
-						<a>HR Policies</a>
-					</li>
-					<li>
-						<a>Forms</a>
+						<a href="">HR Policies</a>
 					</li>
 					<li>
-						<a>Whitepapers</a>
+						<a href="">Forms</a>
 					</li>
 					<li>
-						<a>Infographics</a>
+						<a href="">Whitepapers</a>
 					</li>
 					<li>
-						<a>Brochures</a>
+						<a href="">Infographics</a>
 					</li>
 					<li>
-						<a>HR Glossaries</a>
+						<a href="">Brochures</a>
+					</li>
+					<li>
+						<a href="">HR Glossaries</a>
 					</li>
 				</ul>
 			</div>
-			<div class="col s10">
+			<div class="col s10 brdr">
 				<div class="blog-wrapper">
 					<div class="container">
 						<div class="row">
 							<div class="col s12">
 								<div class="search-input">
 									<input type="search" placeholder="Let's find what you're looking for…">
-									<i class="material-icons">search</i>
+									<i class="search-icons"></i>
 								</div>
 							</div>
 						</div>					
@@ -85,7 +85,7 @@ get_header(); ?>
 									<li class="tag">Time Management</li>
 									<li class="tag">Recruitment</li>
 								</ul>
-								<span class="next-circle"></span>
+								<span class="next-circle"><img src="<?php echo get_template_directory_uri(); ?>/img/blog/forward-arrow.png" alt=""></span>
 							</div>
 						</div>
 						<div class="row">
@@ -106,8 +106,60 @@ get_header(); ?>
 							</div>
 							<div class="col s4">
 								<div class="sub-box z-depth-1">
-
+									<img src="<?php echo get_template_directory_uri(); ?>/img/blog/sub-envelope.png" alt="">
+									<h4>
+										<span>Subscribe &</span>
+										Stay up to Speed!
+									</h4>
+									<div class="input-field">
+										<input value="" id="sub" type="email" class="validate" placeholder="Typeyour@email.com">										
+									</div>
 								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s12 post-tiles">
+								<ul>
+									<li>
+										<a href="">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/blog/blog-img-01.jpg" alt="">										
+											<div class="view-tag"><i class="views-icon"></i>7K</div>
+											<div class="detail-card">
+												<div>
+													<span class="post-dated"><i class="dated-icon"></i>28 Nov 2018</span>
+													<span class="post-read pull-right"><i class="read-icon"></i>10 Min Read</span>
+												</div>
+												<p>Top Four Reasons to Switch to a Cloud Based HRMS</p>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/blog/blog-img-01.jpg" alt="">										
+											<div class="view-tag"><i class="views-icon"></i>7K</div>
+											<div class="detail-card">
+												<div>
+													<span class="post-dated"><i class="dated-icon"></i>28 Nov 2018</span>
+													<span class="post-read pull-right"><i class="read-icon"></i>10 Min Read</span>
+												</div>
+												<p>Top Four Reasons to Switch to a Cloud Based HRMS</p>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/blog/blog-img-01.jpg" alt="">										
+											<div class="view-tag"><i class="views-icon"></i>7K</div>
+											<div class="detail-card">
+												<div>
+													<span class="post-dated"><i class="dated-icon"></i>28 Nov 2018</span>
+													<span class="post-read pull-right"><i class="read-icon"></i>10 Min Read</span>
+												</div>
+												<p>Top Four Reasons to Switch to a Cloud Based HRMS</p>
+											</div>
+										</a>
+									</li>
+								</ul>
 							</div>
 						</div>
 					</div>
