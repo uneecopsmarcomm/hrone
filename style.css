@@ -94,6 +94,9 @@ h1{
 }
 
 /* margins */
+.m0{
+	margin: 0px;
+}
 .mt0{
 	margin-top: 0px;
 }
@@ -368,7 +371,107 @@ span.white-button.secondarycolor {
 }
 
 .people-tex {
-    margin-top: 120px;
+    margin-top: 180px;
+}
+
+
+/* footer */
+.about-hr {
+    border-radius: 50%;
+    width: 796px;
+    min-height: 766px;
+    background: linear-gradient(180deg, #0ea0b7, #11b0a2);
+    position: relative;
+    text-align: center;
+    padding: 76px 78px 0 110px;
+    color: #fff;
+    z-index: 1;
+    margin: 0 0 -220px 0;
+    display: inline-block;
+}
+.joy-look {
+    position: absolute;
+    right: 72px;
+    top: -8px;
+    -ms-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+    transform: rotate(4deg);
+}
+
+footer {
+    position: relative;
+    z-index: 11;
+    background: #f4f5f9;
+}
+.wave {
+    background: url(img/pattern/wave.png) repeat-x top center;
+    position: absolute;
+    top: -95px;
+    min-height: 100px;
+    width: 100%;
+    padding-top: 0;
+    left: 0;
+}
+.footer-bg {
+    padding-top: 100px;
+}
+footer h4 {
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #0b0f17;
+	margin: 0 0 20px 0;
+}
+
+footer address {
+    font-style: normal;
+    color: rgba(0,0,0,0.8);
+    font-size: 18px;
+    font-weight: 300;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dfe2e6;
+}
+
+footer address strong {
+    font-weight: 400;
+}
+ul.footer-menu {
+    margin-bottom: 0;
+}
+
+ul.footer-menu li a {
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(0,0,0,0.8);
+    font-weight: 300;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+p.icon-info {
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(0,0,0,0.8);
+}
+
+p.icon-info i {
+    margin-right: 10px;
+}
+
+p.icon-info a {
+    color: rgba(0,0,0,0.8);
+}
+.share-link a {
+    color: #333333;
+    font-size: 28px;
+    margin-left: 20px;
+}
+.copyright {
+    width: 100%;
+    text-align: center;
+    border-top: 2px solid #dfe2e6;
 }
 
 @media only screen and (min-width: 1530px){

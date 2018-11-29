@@ -477,6 +477,22 @@ get_header(); ?>
 		</div>
 	</div>
 </section>
+<section id="about-hrone" class="section fp-auto-height">
+	<!--about-hr start here-->
+	<div class="about-main-panel">
+		<div class="container center">
+			<div class="about-hr" data-aos="fade-up">
+				<div class="joy-look"><img src="<?php echo get_template_directory_uri(); ?>/img/icon/joy-icon.png" alt="about hr-one company"></div>
+				<h2>About HR-One</h2>
+				<p>Backed by <strong>20 Years of excellence</strong></p>
+				<p>HR-One is the product of <strong>Uneecops Workplace Solutions</strong> Private Limited which is a subsidiary of Uneecops Group. a 350 Cr. Conglomerate established in 1996.</p>
+				<p>Uneecops is a technology solution provider associated with some of the world’s leading OEMs as one of their most trusted partners for business in India. We are also at the forefront of developing cutting edge IT products that are helping growing companies adapt and use technology more efficiently.</p>
+				<div class="award-pic"><img src="<?php echo get_template_directory_uri(); ?>/img/icon/hr-award.png" alt=""></div>
+			</div>
+		</div>
+	</div>
+	<!--about-hr end here-->
+</section>
 <?php
 while ( have_posts() ) :
 	the_post();
@@ -485,5 +501,6 @@ while ( have_posts() ) :
 	<?php the_content(); ?>
 
 <?php endwhile; // end of the loop. ?>
+
 
 <?php get_footer(); ?>
