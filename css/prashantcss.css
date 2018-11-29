@@ -30,6 +30,8 @@ h3.side-heading span{
     padding: 0 20px 0 0;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+    font-weight: bold;
+    color: #000;
 }
 .blog-side-menu ul>li.active>a:before, .blog-side-menu ul>li>a:hover::before {
     content: '';
