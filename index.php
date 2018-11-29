@@ -29,7 +29,7 @@ get_header(); ?>
 <?php else : ?>
 <?php endif; // end have_posts() check ?>
 
-<section>
+<section class="blog-page">
 	<div class="container">
 		<div class="row">
 			<div class="col s2 blog-side-menu">
