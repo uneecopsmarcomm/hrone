@@ -401,7 +401,8 @@ span.white-button.secondarycolor {
 footer {
     position: relative;
     z-index: 11;
-    background: #f4f5f9;
+	background: #f4f5f9;
+	margin-top: 150px;
 }
 .wave {
     background: url(img/pattern/wave.png) repeat-x top center;
