@@ -12,106 +12,122 @@ get_header(); ?>
 
 
 
-<section class="blog-page">
+<section class="blog-inner-page">
 	<div class="container">
-		<div class="row">			
-			<div class="col s10 blog-wrapper">
-				<div class="row">
-					<div class="col s12">
-						<div class="search-input">
-							<input type="search" placeholder="Let's find what you're looking for…">
-							<i class="search-icons"></i>
-						</div>
-					</div>
-				</div>					
-				<div class="row">
-					<div class="col s12">
-						<ul class="tags">
-							<li class="tag active">Payroll</li> 
-							<li class="tag">Engagement</li>
-							<li class="tag">Peformance</li>
-							<li class="tag">Training</li>
-							<li class="tag">Compliance</li>
-							<li class="tag">HR-Tech</li>
-							<li class="tag">Time Management</li>
-							<li class="tag">Recruitment</li>
-						</ul>
-						<span class="next-circle"><img src="<?php echo get_template_directory_uri(); ?>/img/blog/forward-arrow.png" alt=""></span>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col s8">
-						<div class="featured-post z-depth-1">
-							<a href="">
-								<img src="<?php echo get_template_directory_uri(); ?>/img/blog/featured-img-01.jpg" alt="">
-							</a>
-							<div class="featured-tag">FEATURED</div>
-							<div class="detail-card">
-								<div>
-									<span class="post-dated"><i class="dated-icon"></i>28 Nov 2018</span>
-									<span class="post-read pull-right"><i class="read-icon"></i>10 Min Read</span>
+		<div class="row">
+			<div class="col s12">
+				<div class="blog-wrapper">
+					<div class="container">
+						<div class="row">
+							<div class="col s12">
+								<div class="back-btn">
+								<a class="fs18 secondarycolor" href=""><img src="<?php echo get_template_directory_uri(); ?>/img/blog/backward-arrow.png" alt=""> Back to all Posts</a>
 								</div>
-								<p>Top Four Reasons to Switch to a Cloud Based HRMS</p>
+								<h2 class="blog-heading">
+									Top Four Reasons to Switch to a Cloud Based HRMS
+									<span>
+										Here are five steps to get you started:
+									</span>
+								</h2>
 							</div>
 						</div>
-					</div>
-					<div class="col s4">
-						<div class="sub-box z-depth-1">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/blog/sub-envelope.png" alt="">
-							<h4>
-								<span>Subscribe &</span>
-								Stay up to Speed!
-							</h4>
-							<div class="input-field">
-								<input value="" id="sub" type="email" class="validate" placeholder="Typeyour@email.com">
-								<button type="button" class="sub-btn"><img src="<?php echo get_template_directory_uri(); ?>/img/blog/arrow-big.png" alt=""></button>										
+						<div class="row">
+							<div class="col s12">
+								<div class="featured-post z-depth-1">
+									<a href="">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/blog/featured-img-01.jpg" alt="">
+									</a>
+									<div class="featured-tag">FEATURED</div>
+									<div class="caption-card">
+										<div>
+											<span class="post-dated"><i class="dated-icon"></i>28 Nov 2018</span>
+											<span class="post-read"><i class="read-icon"></i>10 Min Read</span>
+											<span class="view-tag"><i class="views-icon"></i>7K Views</span>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col s12 post-tiles">
-						<ul>
-							<li>
-								<a href="">
-									<img src="<?php echo get_template_directory_uri(); ?>/img/blog/blog-img-01.jpg" alt="">										
-									<div class="view-tag"><i class="views-icon"></i>7K</div>
-									<div class="detail-card">
-										<div>
-											<span class="post-dated"><i class="dated-icon"></i>28 Nov 2018</span>
-											<span class="post-read pull-right"><i class="read-icon"></i>10 Min Read</span>
-										</div>
-										<p>Top Four Reasons to Switch to a Cloud Based HRMS</p>
-									</div>
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<img src="<?php echo get_template_directory_uri(); ?>/img/blog/blog-img-01.jpg" alt="">										
-									<div class="view-tag"><i class="views-icon"></i>7K</div>
-									<div class="detail-card">
-										<div>
-											<span class="post-dated"><i class="dated-icon"></i>28 Nov 2018</span>
-											<span class="post-read pull-right"><i class="read-icon"></i>10 Min Read</span>
-										</div>
-										<p>Top Four Reasons to Switch to a Cloud Based HRMS</p>
-									</div>
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<img src="<?php echo get_template_directory_uri(); ?>/img/blog/blog-img-01.jpg" alt="">										
-									<div class="view-tag"><i class="views-icon"></i>7K</div>
-									<div class="detail-card">
-										<div>
-											<span class="post-dated"><i class="dated-icon"></i>28 Nov 2018</span>
-											<span class="post-read pull-right"><i class="read-icon"></i>10 Min Read</span>
-										</div>
-										<p>Top Four Reasons to Switch to a Cloud Based HRMS</p>
-									</div>
-								</a>
-							</li>
-						</ul>
+						<div class="row">
+							<div class="col s12 blog-content">
+								<p>
+									Every business leader is well versed with the benefits of employee engagement.  Employee engagement has emerged as a critical driver of business success in today’s dynamic marketplace. However, getting employees engaged involves more than a strong leadership, recognition, rewards, workplace atmosphere; although these factors help. At the same time, high levels of engagement promote great working culture, happy employees, less attrition rates, customer loyalty and improve organizational performance.
+								</p>
+								<p>
+									If you’re a business leader ready to instill an effective culture of engagement in your business, here are five steps to get you started.
+								</p>
+
+								<!-- list start -->
+								<ul>
+									<li>
+										<h5>
+											Invest in digital processes to enhance the employee experience
+										</h5>
+										<p>
+											Carefully examine as how experiences at every stage of the employee lifecycle could be improved upon, which includes recruitment, time office, onboarding, performance lifecycle, and learning and development. Employees expect one comprehensive portal by which they can   manage their own dashboard, view and update certain fields and records, and can raise tickets to respective departments hassle-free.
+										</p>
+									</li>
+									<li>
+										<h5>
+											Invest in digital processes to enhance the employee experience
+										</h5>
+										<p>
+											Carefully examine as how experiences at every stage of the employee lifecycle could be improved upon, which includes recruitment, time office, onboarding, performance lifecycle, and learning and development. Employees expect one comprehensive portal by which they can   manage their own dashboard, view and update certain fields and records, and can raise tickets to respective departments hassle-free.
+										</p>
+									</li>
+									<li>
+										<h5>
+											Invest in digital processes to enhance the employee experience
+										</h5>
+										<p>
+											Carefully examine as how experiences at every stage of the employee lifecycle could be improved upon, which includes recruitment, time office, onboarding, performance lifecycle, and learning and development. Employees expect one comprehensive portal by which they can   manage their own dashboard, view and update certain fields and records, and can raise tickets to respective departments hassle-free.
+										</p>
+									</li>
+									<li>
+										<h5>
+											Invest in digital processes to enhance the employee experience
+										</h5>
+										<p>
+											Carefully examine as how experiences at every stage of the employee lifecycle could be improved upon, which includes recruitment, time office, onboarding, performance lifecycle, and learning and development. Employees expect one comprehensive portal by which they can   manage their own dashboard, view and update certain fields and records, and can raise tickets to respective departments hassle-free.
+										</p>
+									</li>
+									<li>
+										<h5>
+											Invest in digital processes to enhance the employee experience
+										</h5>
+										<p>
+											Carefully examine as how experiences at every stage of the employee lifecycle could be improved upon, which includes recruitment, time office, onboarding, performance lifecycle, and learning and development. Employees expect one comprehensive portal by which they can   manage their own dashboard, view and update certain fields and records, and can raise tickets to respective departments hassle-free.
+										</p>
+									</li>
+									<li>
+										<h5>
+											Invest in digital processes to enhance the employee experience
+										</h5>
+										<p>
+											Carefully examine as how experiences at every stage of the employee lifecycle could be improved upon, which includes recruitment, time office, onboarding, performance lifecycle, and learning and development. Employees expect one comprehensive portal by which they can   manage their own dashboard, view and update certain fields and records, and can raise tickets to respective departments hassle-free.
+										</p>
+									</li>
+								</ul>
+								<figure>
+									<img src="<?php echo get_template_directory_uri(); ?>/img/blog/inner-img-01.jpg" alt="">
+									<figcaption>Figure 1 :- Lorem ipsum dolor sit amet, consectetur adipiscing elit </figcaption>
+								</figure>
+
+								<p>
+									Every business leader is well versed with the benefits of employee engagement.  Employee engagement has emerged as a critical driver of business success in today’s dynamic marketplace. However, getting employees engaged involves more than a strong leadership, recognition, rewards, workplace atmosphere; although these factors help. At the same time, high levels of engagement promote great working culture, happy employees, less attrition rates, customer loyalty and improve organizational performance.
+								</p>
+								<p>
+									If you’re a business leader ready to instill an effective culture of engagement in your business, here are five steps to get you started.
+								</p>
+								<figure>
+									<img src="<?php echo get_template_directory_uri(); ?>/img/blog/inner-img-02.jpg" alt="">
+									<figcaption>Figure 1 :- Lorem ipsum dolor sit amet, consectetur adipiscing elit </figcaption>
+								</figure>
+							</div>
+							<div class="back-btn">
+								<a class="fs18 secondarycolor" href=""><img src="<?php echo get_template_directory_uri(); ?>/img/blog/backward-arrow.png" alt=""> Back to all Posts</a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
